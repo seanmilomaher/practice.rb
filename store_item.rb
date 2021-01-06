@@ -20,7 +20,7 @@ class Disc
   end
 end
 
-Defender = Disc.new(speed: 13, glide: 5, turn: 0, fade: 3)
-Judge = Disc.new(speed: 2, glide: 4, turn: 0, fade: 1)
-Truth = Disc.new(speed: 5, glide: 4, turn: -1, fade: 1)
-p Truth.speed
+defender = Disc.new(speed: 13, glide: 5, turn: 0, fade: 3)
+judge = Disc.new(speed: 2, glide: 4, turn: 0, fade: 1)
+truth = Disc.new(speed: 5, glide: 4, turn: -1, fade: 1)
+p truth.speed
