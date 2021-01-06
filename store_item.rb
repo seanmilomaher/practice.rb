@@ -46,3 +46,4 @@ end
 Defender = Disc.new(13, 5, 0, 3)
 Judge = Disc.new(2, 4, 0, 1)
 Truth = Disc.new(5, 5, -1, 1)
+Truth.print_info
